@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Form Cache Demo</title>
+	</head>
+	<body>
+		<form name="cacheForm" method= "post" action = "http://www.hashemian.com/tools/form-post-tester.php/testCache000">
+			<label>First Name: </label>
+			<input type = "text" name="firstname" value ="a"/><br />
+			<label>Last Name: </label>
+			<input type = "text" name="lastname" value= "b"/><br />
+			<label>Phone Num: </label>
+			<input type = "text" name="phone"/><br />
+			<select id = "a">
+				<option>A</option>
+				<option>B</option>
+				<option>C</option>
+			</select><br />
+			<input type = "radio" name="gender" value= "male" /> Male</br />
+			<input type = "radio" name="gender" value= "female"/> Female</br />
+			<input type = "radio" name="gender" value= "other"/> Other</br />
+			<input type = "checkbox" name= "agree" /> I Agree</br>
+			<select id = "b">
+				<option>D</option>
+				<option>E</option>
+				<option>F</option>
+			</select><br />
+			<input type= "submit" name="submitBtn" />
+		</form>
+		<button id="btn">Click</button>
+				<script type="text/javascript" src= 'src/formCache.js'></script>
+
+	</body>
+</html>
